@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel</title>
+  <link rel="icon" type="image/icon" href="images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="images/Hotel Logo.png" alt="Logo" width="30" height="24">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stay.html">Stay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dine.html">Dine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="see&do.html">See & Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="meetings&events.html">Meetings & Events</a>
+          </li>
+        </ul>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="images/Gigachad.png" alt="Gigachad" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small">
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="/">Logout</a></li>
+          </ul>
+        </div>
+
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="login.html" role="button">Login</a>
+          <a class="btn btn-warning" href="register.html" role="button">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Hotel Carousel 1.jpg" class="d-block w-100" alt="Hotel Carousel 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Hotel Carousel 2.jpg" class="d-block w-100" alt="Hotel Carousel 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Hotel Carousel 3.jpg" class="d-block w-100" alt="Hotel Carousel 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Welcome to LeHotel</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Unlock the doors to a realm of unparalleled luxury, where refined elegance and impeccable
+        service redefine the art of hospitality. Allow us to envelop you in the embrace of our sumptuous accommodations,
+        meticulously curated to cater to the most discerning of tastes. Each room and suite is a haven of resplendence,
+        adorned with bespoke furnishings and adorned with exquisite artwork, creating an ambiance that is both
+        captivating and enchanting.</p>
+    </div>
+  </div>
+
+  <div class="card text-bg-dark">
+    <img src="images/Hotel Stay.jpg" class="card-img" alt="Hotel Stay">
+    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center p-5">
+      <h3 class="card-title">Rooms</h3>
+      <p class="card-text col-md-8">Gracefully restored while preserving the buildings' colonial art deco and Venetian
+        aesthetics, each room is thoughtfully designed to highlight its conservation elements and fitted with
+        modern luxury.</p>
+      <button type="button" class="btn btn-outline-light">Discover More</button>
+    </div>
+  </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/Hotel Dine.jpg" class="d-block mx-lg-auto img-fluid" alt="Hotel Dine" width="700" height="500"
+          loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">AN ATLAS OF FLAVOUR</h1>
+        <p class="lead">Embark on an epicurean voyage through an endless variety of cuisines, crafted with the finest
+          ingredients and executed with passion. Let our unique and exquisite creations by celebrated chefs at
+          award-winning restaurants take your taste buds on an exceptional culinary journey.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2">Discover More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="clearfix text-center p-5">
+    <img src="images/Hotel Shop.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Hotel Shop">
+    <h3>STATEMENT STYLE</h3>
+    <p>Discover a curated collection of the season's latest arrivals from the world's most prestigious fashion houses
+      and coveted beauty and lifestyle brands. From high fashion to haute horlogerie, fine jewellery to rare wines,
+      indulge in a trove of treasures that reflect the most sophisticated taste and style.</p>
+    <button type="button" class="btn btn-outline-dark ">Discover More</button>
+  </div> -->
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">STATEMENT STYLE</h1>
+        <p class="lead">Discover a curated collection of the season's latest arrivals from the world's most prestigious
+          fashion houses and coveted beauty and lifestyle brands. From high fashion to haute horlogerie, fine jewellery
+          to rare wines, indulge in a trove of treasures that reflect the most sophisticated taste and style.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2">Discover More</button>
+        </div>
+      </div>
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/Hotel Shop.jpg" class="d-block mx-lg-auto img-fluid" alt="Hotel Shop" width="700" height="500"
+          loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Meetings and Events</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Every event - from the most intimate of private gatherings to the grandest of corporate
+        celebrations - leaves a lasting impression on every guest. With more than 50,000 square feet of indoor and
+        outdoor meeting and events space, along with expert attention to every detail by a team of dedicated catering
+        and event managers, be assured that your event will be executed with fair, from beginning to end.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-outline-dark btn-lg px-4 me-sm-3">Discover More</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 100vh;">
+      <div class="container px-5">
+        <img src="images/Hotel MICE.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Hotel MICE" width="700"
+          height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2024 LeHotel</p>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="stay.html" class="nav-link px-2 text-body-secondary">Stay</a></li>
+      <li class="nav-item"><a href="dine.html" class="nav-link px-2 text-body-secondary">Dine</a></li>
+      <li class="nav-item"><a href="see&do.html" class="nav-link px-2 text-body-secondary">See & Do</a></li>
+      <li class="nav-item"><a href="meetings&events.html" class="nav-link px-2 text-body-secondary">Meetings &
+          Events</a></li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
